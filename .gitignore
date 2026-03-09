@@ -1,0 +1,44 @@
+# --- Python Essentials ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+gpu_venv/
+env/
+ENV/
+*.log
+test_db.py
+test_reg.py
+test_login.py
+
+# --- AI & Vision ---
+runs/
+*.pt
+yolo26n.pt
+yolov8n.pt
+dataset/
+yolo_dataset/
+images/
+labels/
+label_debug/
+
+# --- Database ---
+*.db
+seed_insight.db
+
+# --- Security & Secrets ---
+backend/.env
+.env
+secret_key
+*.key
+
+# --- Frontend (Node.js) ---
+node_modules/
+dist/
+coverage/
+.DS_Store
+
+# --- OS Specific ---
+Thumbs.db
+desktop.ini
